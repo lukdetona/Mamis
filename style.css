@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    margin: 50px 0;
+  }
+  
+  h2 {
+    color: pink;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  footer {
+   
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    /* Estilos para telas menores que 768px de largura */
+    .coluna {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+  .imagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1500px;
+  }
+  .imagens img{
+    width: 200px;
+  }
